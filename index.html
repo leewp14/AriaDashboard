@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="max-width max-height">
+
+    <head>
+        <title>AriaDashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="./src/css/base.css">
+        <link rel="stylesheet" href="./src/css/fonts/font.css">
+        <link rel="stylesheet" href="./src/css/common.css">
+
+        <script src="./src/js/base.js"></script>
+        <script src="./src/js/components/hero.js"></script>
+        <script src="./src/js/components/clock.js"></script>
+        <script src="./src/js/components/fullscreen.js"></script>
+
+    </head>
+
+    <body onload="earlyInit()">
+        <div id="hero-parent" class="hero flex max-width max-height">
+            <div id="clock-parent" class="clock flex no-cursor">
+                <span id="clock-time">
+                    10:45
+                </span>
+                <span id="clock-time-full">
+                    Tue, 03 Aug 2021 19:52:45 GMT
+                </span>
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,6 @@
+
+.hero#hero-parent{
+    background-size: cover;
+    background-position: center;
+    background-image: var(--hero-background-image);
+}

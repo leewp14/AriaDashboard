@@ -1,0 +1,23 @@
+
+.clock#clock-parent{
+    align-items: baseline;
+    padding: 1rem;
+    gap: 3rem;
+    background: #0000007d;
+    color: wheat;
+    text-shadow: 0 0 5rem #9fd5cd;
+    /* backdrop-filter: blur(0.1rem);
+    border-radius: .2rem; */
+}
+
+.clock #clock-time{
+    font-size: 14rem;
+    font-family: 'IBM Plex Sans Thin', 'IBM Plex Sans';
+    font-weight: 100;
+}
+
+.clock #clock-time-full{
+    font-size: 2rem;
+    font-family: 'IBM Plex Mono Thin', 'IBM Plex Mono';
+    font-weight: 100;
+}
