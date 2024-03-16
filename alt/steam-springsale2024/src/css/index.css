@@ -1,0 +1,55 @@
+
+:root {
+    --var-bg-shadow: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.2));
+    --var-bg-url: url('./../media/natsuki-nakagawa.webp');
+}
+
+body {
+    /* background: url('./../media/sale_spring2024_tiled_bg.png'); */
+    background-image: var(--var-bg-shadow), var(--var-bg-url);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+video#bg-loop {
+    width: 90%;
+    margin: auto;
+    z-index: -1;
+    display: block;
+    opacity: .9;
+}
+
+div#clock-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    text-shadow: 0 0 5rem #9fd5cd;
+    opacity: .8;
+
+    padding-top: 3rem;
+}
+
+.clock #clock-time-full{
+    font-size: 1rem;
+    font-family: 'IBM Plex Mono Thin', 'IBM Plex Mono';
+    font-weight: 100;
+}
+
+.clock #clock-time{
+    font-size: 5rem;
+    font-family: 'IBM Plex Sans Thin', 'IBM Plex Sans';
+    font-weight: 100;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding: .8rem 0;
+    opacity: .5;
+    font-size: .6rem;
+}

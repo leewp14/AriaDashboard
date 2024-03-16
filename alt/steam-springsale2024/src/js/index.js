@@ -1,0 +1,5 @@
+
+function earlyInit(){
+    clockService();
+    fullScreenService();
+}
